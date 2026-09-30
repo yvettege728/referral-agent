@@ -1,6 +1,8 @@
-# Service Record Protocol — deterministic and hybrid live modes
+# Referral Agent — evidence-backed recommendations and recovery
 
-买方把可机器检查的小任务交给三个 seller。Baseline 只依据自我介绍选人；improved 依据 notary 保存的服务记录计算信誉。`--mock` 保留原来的确定性对照组。不加 `--mock` 时进入 hybrid live mode：四个 Referral panel 角色、Lead Referral 和诚实 seller 调用真实模型；Notary、Auditor、checker、评分与重试仍由确定性 Python 执行。seller-c 保留为受控 adversarial seller，使 fabrication 与 recovery 仍然可重现。
+Referral Agent 帮助 buyer 根据可检查的证据选择 seller，并在推荐失败后记录原因、排除失败者和重试。底层 Service Record Protocol 提供 Notary、Auditor、历史记录和 reputation scoring。`--mock` 保留确定性对照组；hybrid live mode 让四个 Referral panel 角色、Lead Referral 和诚实 seller 调用真实模型，同时保留确定性的检查、评分与停止规则。seller-c 是受控 adversarial seller，使 fabrication 与 recovery 可以重现。
+
+GitHub repository: <https://github.com/yvettege728/referral-agent>
 
 从本目录执行一条命令：
 
