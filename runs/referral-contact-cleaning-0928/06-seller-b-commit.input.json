@@ -1,0 +1,9 @@
+{
+  "phase": "commit",
+  "brief": "# Clean a contact table\n\nhigh-stake: false\ndomain: data-cleaning\n\nRead messy.csv. Rename columns to id,name,email,city in that order. Trim fields, collapse repeated whitespace in names and cities, lowercase emails, convert IDs to canonical integers. Keep the first occurrence of each numeric ID, drop later duplicates, sort by numeric ID. Preserve the case of names and cities. Write CSV, no index column.\n\nDelivery path: `/Users/yvette/Code/service-record/runs/referral-contact-cleaning-0928/attempt-2/seller-b/delivery.csv` (the orchestrator substitutes an absolute path before the seller sees this brief). Do not write elsewhere.\n",
+  "input_directory": "/Users/yvette/Code/service-record/runs/referral-contact-cleaning-0928/attempt-2/seller-b",
+  "delivery_path": "/Users/yvette/Code/service-record/runs/referral-contact-cleaning-0928/attempt-2/seller-b/delivery.csv",
+  "channel": "referral",
+  "referral": "referral-agent-1",
+  "handoff_sha256": "7ea1fa61e79fbbea3a92a1b9a9ec98bb6bb596ecc86967a6cc5845ff4b5a5db2"
+}

@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "bad_deliveries": 10,
+    "retries": 10,
+    "ask_human": 0,
+    "agent_calls": 72,
+    "attempts": 18,
+    "calls_per_task": [
+      8,
+      8,
+      12,
+      8,
+      8,
+      12,
+      8,
+      8
+    ],
+    "average_calls": 9.0,
+    "bad_delivery_rate": 0.5555555555555556,
+    "retries_per_task": 1.25
+  },
+  "improved": {
+    "bad_deliveries": 4,
+    "retries": 4,
+    "ask_human": 0,
+    "agent_calls": 48,
+    "attempts": 12,
+    "calls_per_task": [
+      8,
+      4,
+      8,
+      4,
+      4,
+      8,
+      8,
+      4
+    ],
+    "average_calls": 6.0,
+    "bad_delivery_rate": 0.3333333333333333,
+    "retries_per_task": 0.5
+  }
+}

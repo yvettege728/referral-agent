@@ -1,0 +1,5 @@
+ Customer ID , Full Name , Email Address , Location 
+ 02 , Grace   Hopper , GRACE@EXAMPLE.COM , New   York 
+ 1 , Ada Lovelace , ADA@EXAMPLE.COM , London 
+2,Wrong Duplicate,duplicate@example.com,Paris
+003, Lin  Chen , LIN@example.com , Boston 

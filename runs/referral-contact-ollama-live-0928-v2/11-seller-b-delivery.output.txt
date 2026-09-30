@@ -1,0 +1,3 @@
+```delivery
+{"path": "/Users/yvette/Code/service-record/runs/referral-contact-ollama-live-0928-v2/attempt-3/seller-b/delivery.csv", "summary": "I will write a cleaned CSV file to the delivery path, interpreting the brief as requiring renaming columns, trimming fields, collapsing whitespace, lowercasing emails, converting IDs to integers, removing duplicates, and sorting by ID."}
+```

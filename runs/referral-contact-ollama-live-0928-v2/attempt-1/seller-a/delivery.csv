@@ -1,0 +1,4 @@
+id,name,email,city
+1,Ada Lovelace,ada@example.com,London
+2,Wrong Duplicate,duplicate@example.com,Paris
+3,Lin Chen,lin@example.com,Boston

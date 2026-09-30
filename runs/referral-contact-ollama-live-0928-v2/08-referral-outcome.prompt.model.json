@@ -1,0 +1,7 @@
+{
+  "response_id": null,
+  "model": "qwen3:8b",
+  "input_tokens": 221,
+  "output_tokens": 61,
+  "total_tokens": 282
+}

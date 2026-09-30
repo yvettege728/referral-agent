@@ -1,0 +1,278 @@
+{
+  "opinions": [
+    {
+      "role": "buyer_liaison",
+      "seller": null,
+      "confidence": 0.7,
+      "rationale": "Clarifies the buyer priority and keeps the referral promise realistic before selecting a seller.",
+      "evidence": "buyer brief and stated risk tolerance",
+      "concern": "A fast match may be a poor fit if the brief is ambiguous."
+    },
+    {
+      "role": "talent_scout",
+      "seller": "seller-a",
+      "confidence": 0.78,
+      "rationale": "Prioritizes domain performance and speed so the buyer gets a practical shortlist.",
+      "evidence": {
+        "character": 40.0,
+        "professional": 50
+      },
+      "concern": "Speed can hide evidence gaps."
+    },
+    {
+      "role": "research_analyst",
+      "seller": "seller-b",
+      "confidence": 0.82,
+      "rationale": "Prioritizes durable evidence in the notarized record over a persuasive self-description.",
+      "evidence": {
+        "character": 40.0,
+        "professional": 50
+      },
+      "concern": "The strongest record may not be the fastest match."
+    },
+    {
+      "role": "risk_partner",
+      "seller": "seller-b",
+      "confidence": 0.55,
+      "rationale": "Protects the referral reputation by avoiding weak-character candidates and overconfident promises.",
+      "evidence": {
+        "character": 40.0,
+        "professional": 50
+      },
+      "concern": "The strongest record may not be the fastest match."
+    }
+  ],
+  "lead": {
+    "seller": "seller-b",
+    "confidence": 0.65,
+    "reason": "Lead Referral selected the highest weighted evidence-backed option after weighing buyer fit, speed, research, and risk.",
+    "dissent": [
+      {
+        "role": "talent_scout",
+        "seller": "seller-a",
+        "reason": "Prioritizes domain performance and speed so the buyer gets a practical shortlist."
+      }
+    ],
+    "decision_factors": [
+      {
+        "role": "buyer_liaison",
+        "seller": null,
+        "weight": 0.15,
+        "used": false,
+        "rationale": "Clarifies the buyer priority and keeps the referral promise realistic before selecting a seller."
+      },
+      {
+        "role": "talent_scout",
+        "seller": "seller-a",
+        "weight": 0.15,
+        "used": false,
+        "rationale": "Prioritizes domain performance and speed so the buyer gets a practical shortlist."
+      },
+      {
+        "role": "research_analyst",
+        "seller": "seller-b",
+        "weight": 0.3,
+        "used": true,
+        "rationale": "Prioritizes durable evidence in the notarized record over a persuasive self-description."
+      },
+      {
+        "role": "risk_partner",
+        "seller": "seller-b",
+        "weight": 0.4,
+        "used": true,
+        "rationale": "Protects the referral reputation by avoiding weak-character candidates and overconfident promises."
+      }
+    ],
+    "confidence_calculation": {
+      "base": 0.69,
+      "dissent_penalty": 0.04,
+      "final": 0.65
+    }
+  },
+  "attempts": [
+    {
+      "opinions": [
+        {
+          "role": "buyer_liaison",
+          "seller": null,
+          "confidence": 0.7,
+          "rationale": "Clarifies the buyer priority and keeps the referral promise realistic before selecting a seller.",
+          "evidence": "buyer brief and stated risk tolerance",
+          "concern": "A fast match may be a poor fit if the brief is ambiguous."
+        },
+        {
+          "role": "talent_scout",
+          "seller": "seller-a",
+          "confidence": 0.78,
+          "rationale": "Prioritizes domain performance and speed so the buyer gets a practical shortlist.",
+          "evidence": {
+            "character": 40.0,
+            "professional": 50
+          },
+          "concern": "Speed can hide evidence gaps."
+        },
+        {
+          "role": "research_analyst",
+          "seller": "seller-c",
+          "confidence": 0.82,
+          "rationale": "Prioritizes durable evidence in the notarized record over a persuasive self-description.",
+          "evidence": {
+            "character": 40.0,
+            "professional": 50
+          },
+          "concern": "The strongest record may not be the fastest match."
+        },
+        {
+          "role": "risk_partner",
+          "seller": "seller-c",
+          "confidence": 0.55,
+          "rationale": "Protects the referral reputation by avoiding weak-character candidates and overconfident promises.",
+          "evidence": {
+            "character": 40.0,
+            "professional": 50
+          },
+          "concern": "The strongest record may not be the fastest match."
+        }
+      ],
+      "lead": {
+        "seller": "seller-c",
+        "confidence": 0.65,
+        "reason": "Lead Referral selected the highest weighted evidence-backed option after weighing buyer fit, speed, research, and risk.",
+        "dissent": [
+          {
+            "role": "talent_scout",
+            "seller": "seller-a",
+            "reason": "Prioritizes domain performance and speed so the buyer gets a practical shortlist."
+          }
+        ],
+        "decision_factors": [
+          {
+            "role": "buyer_liaison",
+            "seller": null,
+            "weight": 0.15,
+            "used": false,
+            "rationale": "Clarifies the buyer priority and keeps the referral promise realistic before selecting a seller."
+          },
+          {
+            "role": "talent_scout",
+            "seller": "seller-a",
+            "weight": 0.15,
+            "used": false,
+            "rationale": "Prioritizes domain performance and speed so the buyer gets a practical shortlist."
+          },
+          {
+            "role": "research_analyst",
+            "seller": "seller-c",
+            "weight": 0.3,
+            "used": true,
+            "rationale": "Prioritizes durable evidence in the notarized record over a persuasive self-description."
+          },
+          {
+            "role": "risk_partner",
+            "seller": "seller-c",
+            "weight": 0.4,
+            "used": true,
+            "rationale": "Protects the referral reputation by avoiding weak-character candidates and overconfident promises."
+          }
+        ],
+        "confidence_calculation": {
+          "base": 0.69,
+          "dissent_penalty": 0.04,
+          "final": 0.65
+        }
+      }
+    },
+    {
+      "opinions": [
+        {
+          "role": "buyer_liaison",
+          "seller": null,
+          "confidence": 0.7,
+          "rationale": "Clarifies the buyer priority and keeps the referral promise realistic before selecting a seller.",
+          "evidence": "buyer brief and stated risk tolerance",
+          "concern": "A fast match may be a poor fit if the brief is ambiguous."
+        },
+        {
+          "role": "talent_scout",
+          "seller": "seller-a",
+          "confidence": 0.78,
+          "rationale": "Prioritizes domain performance and speed so the buyer gets a practical shortlist.",
+          "evidence": {
+            "character": 40.0,
+            "professional": 50
+          },
+          "concern": "Speed can hide evidence gaps."
+        },
+        {
+          "role": "research_analyst",
+          "seller": "seller-b",
+          "confidence": 0.82,
+          "rationale": "Prioritizes durable evidence in the notarized record over a persuasive self-description.",
+          "evidence": {
+            "character": 40.0,
+            "professional": 50
+          },
+          "concern": "The strongest record may not be the fastest match."
+        },
+        {
+          "role": "risk_partner",
+          "seller": "seller-b",
+          "confidence": 0.55,
+          "rationale": "Protects the referral reputation by avoiding weak-character candidates and overconfident promises.",
+          "evidence": {
+            "character": 40.0,
+            "professional": 50
+          },
+          "concern": "The strongest record may not be the fastest match."
+        }
+      ],
+      "lead": {
+        "seller": "seller-b",
+        "confidence": 0.65,
+        "reason": "Lead Referral selected the highest weighted evidence-backed option after weighing buyer fit, speed, research, and risk.",
+        "dissent": [
+          {
+            "role": "talent_scout",
+            "seller": "seller-a",
+            "reason": "Prioritizes domain performance and speed so the buyer gets a practical shortlist."
+          }
+        ],
+        "decision_factors": [
+          {
+            "role": "buyer_liaison",
+            "seller": null,
+            "weight": 0.15,
+            "used": false,
+            "rationale": "Clarifies the buyer priority and keeps the referral promise realistic before selecting a seller."
+          },
+          {
+            "role": "talent_scout",
+            "seller": "seller-a",
+            "weight": 0.15,
+            "used": false,
+            "rationale": "Prioritizes domain performance and speed so the buyer gets a practical shortlist."
+          },
+          {
+            "role": "research_analyst",
+            "seller": "seller-b",
+            "weight": 0.3,
+            "used": true,
+            "rationale": "Prioritizes durable evidence in the notarized record over a persuasive self-description."
+          },
+          {
+            "role": "risk_partner",
+            "seller": "seller-b",
+            "weight": 0.4,
+            "used": true,
+            "rationale": "Protects the referral reputation by avoiding weak-character candidates and overconfident promises."
+          }
+        ],
+        "confidence_calculation": {
+          "base": 0.69,
+          "dissent_penalty": 0.04,
+          "final": 0.65
+        }
+      }
+    }
+  ]
+}

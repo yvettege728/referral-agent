@@ -1,0 +1,19 @@
+.DS_Store
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Keep only submission-relevant run evidence.
+runs/*
+!runs/eval-summary.json
+!runs/eval-summary.md
+!runs/baseline-entries.jsonl
+!runs/improved-entries.jsonl
+!runs/referral-contact-cleaning-0928/
+!runs/referral-contact-cleaning-0928/**
+!runs/referral-contact-ollama-live-0928-v2/
+!runs/referral-contact-ollama-live-0928-v2/**
+
+# Local records are mutable runtime state.
+records/*.jsonl

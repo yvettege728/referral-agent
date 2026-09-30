@@ -1,0 +1,12 @@
+{
+  "sellers": ["seller-c", "seller-b", "seller-a"],
+  "character_initial": 40,
+  "professional_initial": 50,
+  "step": 16.404119792206316,
+  "k": 2.954701971999018,
+  "drop_factor": 0.3333333333333333,
+  "default_stake": {"kind": "compute", "amount": 1, "proof": "mock-local-work"},
+  "max_retries": 2,
+  "human_threshold": 40,
+  "agent_timeout_seconds": 30
+}

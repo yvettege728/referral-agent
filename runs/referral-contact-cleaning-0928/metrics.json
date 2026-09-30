@@ -1,0 +1,19 @@
+{
+  "task_id": "03",
+  "mode": "improved",
+  "bad_deliveries": 1,
+  "retries": 1,
+  "ask_human": 0,
+  "agent_calls": 8,
+  "attempts": 2,
+  "status": "pass",
+  "forced_seller": null,
+  "team_member_calls": 4,
+  "referral": "referral-agent-1",
+  "referral_reliability": {
+    "recommendations": 2,
+    "completed": 2,
+    "successes": 1,
+    "reliability": 72.75
+  }
+}
