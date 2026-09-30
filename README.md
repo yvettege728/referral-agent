@@ -4,6 +4,27 @@ Referral Agent 帮助 buyer 根据可检查的证据选择 seller，并在推荐
 
 GitHub repository: <https://github.com/yvettege728/referral-agent>
 
+## Evidence for the HW2 report (English)
+
+| Report section | What it shows | Where |
+|---|---|---|
+| II.5 | Deterministic demo: recommend, delegate, detect fabrication, retry, verify | [`runs/referral-contact-cleaning-0928/`](runs/referral-contact-cleaning-0928/) |
+| II.5 | Hybrid qwen3:8b run that escalates to a person after the retry limit | [`runs/referral-contact-ollama-live-0928-v3/timeline.md`](runs/referral-contact-ollama-live-0928-v3/timeline.md) |
+| II.6 | Stored history changes the choice on a repeated task | [`runs/improved-01/`](runs/improved-01/), [`runs/improved-05/`](runs/improved-05/), [`runs/baseline-05/`](runs/baseline-05/) |
+| II.7 | Eight-task baseline vs improved evaluation | [`runs/eval-summary.md`](runs/eval-summary.md) |
+| Extra | Poisoned reputation lookup and the record-check fix | [`experiments/misalignment/`](experiments/misalignment/) |
+
+Reproduce:
+
+```bash
+./run.sh 03 referral-contact-demo --mock --mediated --live   # deterministic demo
+./eval.sh --mock                                              # eight-task evaluation
+SR_MODEL_PROVIDER=ollama OLLAMA_MODEL=qwen3:8b \
+  SR_RECORDS_DIR=/tmp/referral-live-records \
+  ./run.sh 03 referral-live --mediated --live                 # hybrid live run, needs a local Ollama
+python3 experiments/misalignment/referral_misalignment_experiment.py
+```
+
 从本目录执行一条命令：
 
 ```bash
