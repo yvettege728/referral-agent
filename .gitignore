@@ -14,6 +14,12 @@ runs/*
 !runs/referral-contact-cleaning-0928/**
 !runs/referral-contact-ollama-live-0928-v2/
 !runs/referral-contact-ollama-live-0928-v2/**
+!runs/referral-contact-ollama-live-0928-v3/
+!runs/referral-contact-ollama-live-0928-v3/**
+!runs/baseline-0*/
+!runs/baseline-0*/**
+!runs/improved-0*/
+!runs/improved-0*/**
 
 # Local records are mutable runtime state.
 records/*.jsonl

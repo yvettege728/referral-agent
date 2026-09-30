@@ -1,0 +1,3 @@
+```outcome
+{"result": "pass", "note": "PASS: every prime factorisation is correct"}
+```

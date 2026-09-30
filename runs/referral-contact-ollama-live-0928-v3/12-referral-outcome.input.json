@@ -1,0 +1,10 @@
+{
+  "phase": "outcome",
+  "delivery_claim": {
+    "path": "/Users/yvette/Code/service-record/runs/referral-contact-ollama-live-0928-v3/attempt-3/seller-b/delivery.csv",
+    "summary": "I will write a cleaned CSV file to /Users/yvette/Code/service-record/runs/referral-contact-ollama-live-0928-v3/attempt-3/seller-b/delivery.csv. I chose to interpret 'numeric ID' as integer values and 'first occurrence' as the first row with a unique numeric ID."
+  },
+  "check_result": "fail",
+  "check_reason": "FAIL: header, normalisation, deduplication, or row order is wrong",
+  "delivered_content": "id,name,email,city\n1,Ada Lovelace,ada@example.com,London\n2,Wrong Duplicate,duplicate@example.com,Paris\n3, Lin  Chen,lin@example.com,Boston"
+}

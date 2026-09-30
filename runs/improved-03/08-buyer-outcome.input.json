@@ -1,0 +1,10 @@
+{
+  "phase": "outcome",
+  "delivery_claim": {
+    "path": "/Users/yvette/Code/service-record/runs/improved-03/attempt-2/seller-a/delivery.csv",
+    "summary": "Completed the requested file."
+  },
+  "check_result": "pass",
+  "check_reason": "PASS: all conversions match the supplied definitions",
+  "delivered_content": "ingredient,grams\nhoney,85.05\nwater,59.15\nflour,150.00\nbrown sugar,165.00\nolive oil,40.37\n"
+}

@@ -1,0 +1,39 @@
+{
+  "phase": "choice",
+  "domain": "arithmetic",
+  "available": [
+    "seller-c",
+    "seller-b",
+    "seller-a"
+  ],
+  "mode": "improved",
+  "high_stake": false,
+  "human_threshold": 40,
+  "brief": "# Prime factorisations\n\nhigh-stake: false\ndomain: arithmetic\n\nRead numbers.json. Write a JSON object whose keys are the decimal input numbers and values are ascending lists of prime integer factors, including repetitions. The factorisation of 1 is []. Include every input exactly once and no extra keys.\n\nDelivery path: `{delivery_path}` (the orchestrator substitutes an absolute path before the seller sees this brief). Do not write elsewhere.\n",
+  "lookup": {
+    "seller-c": {
+      "character": 13.333333333333332,
+      "professional": {
+        "arithmetic": 18.999999999999993
+      },
+      "entry_count": 1,
+      "offences": 1
+    },
+    "seller-b": {
+      "character": 70.69843948416478,
+      "professional": {
+        "arithmetic": 97.75
+      },
+      "entry_count": 4,
+      "offences": 0
+    },
+    "seller-a": {
+      "character": 49.84247187532379,
+      "professional": {
+        "arithmetic": 50
+      },
+      "entry_count": 1,
+      "offences": 0
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "phase": "choice",
+  "domain": "conversion",
+  "available": [
+    "seller-c",
+    "seller-b",
+    "seller-a"
+  ],
+  "mode": "improved",
+  "high_stake": false,
+  "human_threshold": 40,
+  "brief": "# Recipe conversion\n\nhigh-stake: false\ndomain: conversion\n\nRead recipe.csv and units.json. Cups depend on the ingredient; oz means mass ounces. Write CSV with exactly the header ingredient,grams, preserving input row order. Round grams to 2 decimal places using round-half-up.\n\nDelivery path: `{delivery_path}` (the orchestrator substitutes an absolute path before the seller sees this brief). Do not write elsewhere.\n",
+  "lookup": {
+    "seller-c": {
+      "character": 13.333333333333332,
+      "professional": {
+        "conversion": 50
+      },
+      "entry_count": 1,
+      "offences": 1
+    },
+    "seller-b": {
+      "character": 79.5232748892078,
+      "professional": {
+        "conversion": 85.75
+      },
+      "entry_count": 6,
+      "offences": 0
+    },
+    "seller-a": {
+      "character": 58.070372873705246,
+      "professional": {
+        "conversion": 97.75
+      },
+      "entry_count": 2,
+      "offences": 0
+    }
+  },
+  "forced_seller": "seller-c"
+}

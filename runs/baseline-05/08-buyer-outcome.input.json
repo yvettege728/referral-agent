@@ -1,0 +1,10 @@
+{
+  "phase": "outcome",
+  "delivery_claim": {
+    "path": "/Users/yvette/Code/service-record/runs/baseline-05/attempt-2/seller-b/delivery.json",
+    "summary": "Completed the requested file."
+  },
+  "check_result": "pass",
+  "check_reason": "PASS: every prime factorisation is correct",
+  "delivered_content": "{\n  \"1\": [],\n  \"12\": [\n    2,\n    2,\n    3\n  ],\n  \"97\": [\n    97\n  ],\n  \"360\": [\n    2,\n    2,\n    2,\n    3,\n    3,\n    5\n  ],\n  \"1024\": [\n    2,\n    2,\n    2,\n    2,\n    2,\n    2,\n    2,\n    2,\n    2,\n    2\n  ],\n  \"99991\": [\n    99991\n  ]\n}\n"
+}

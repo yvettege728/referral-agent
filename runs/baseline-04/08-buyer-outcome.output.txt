@@ -1,0 +1,3 @@
+```outcome
+{"result": "pass", "note": "PASS: cleaned contacts match the required rules"}
+```

@@ -1,0 +1,13 @@
+{
+  "phase": "choice",
+  "domain": "arithmetic",
+  "available": [
+    "seller-b",
+    "seller-a"
+  ],
+  "mode": "baseline",
+  "high_stake": false,
+  "human_threshold": 40,
+  "brief": "# Prime factorisations\n\nhigh-stake: false\ndomain: arithmetic\n\nRead numbers.json. Write a JSON object whose keys are the decimal input numbers and values are ascending lists of prime integer factors, including repetitions. The factorisation of 1 is []. Include every input exactly once and no extra keys.\n\nDelivery path: `{delivery_path}` (the orchestrator substitutes an absolute path before the seller sees this brief). Do not write elsewhere.\n",
+  "self_descriptions": "# Service providers\n\n## seller-c\nI deliver clear, complete files with careful attention to your requested format. I work confidently across calculation, conversion, and data-cleaning tasks, and report results promptly.\n\n## seller-b\nI work methodically, check source definitions, and communicate uncertainty clearly. You can expect structured outputs and an honest account of the work performed.\n\n## seller-a\nI provide dependable calculations and tidy data files. I follow the supplied rules closely, check the final format, and deliver results that are easy to use.\n"
+}

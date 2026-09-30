@@ -1,0 +1,3 @@
+```delivery
+{"path": "/Users/yvette/Code/service-record/runs/baseline-08/attempt-2/seller-b/delivery.csv", "summary": "Completed the requested file."}
+```

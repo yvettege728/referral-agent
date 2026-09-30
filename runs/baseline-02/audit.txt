@@ -1,0 +1,21 @@
+[before] AUDIT PASS
+[before] AUDIT PASS
+[after] AUDIT PASS
+[before] AUDIT PASS
+[after] AUDIT PASS
+[before] AUDIT PASS
+[after] AUDIT PASS
+[delivery] AUDIT FAIL: fabrication flag notarised; claimed delivery is missing or empty: /Users/yvette/Code/service-record/runs/baseline-02/attempt-1/seller-c/delivery.csv
+[before] AUDIT PASS
+[after] AUDIT PASS
+[before] AUDIT PASS
+[after] AUDIT PASS
+[before] AUDIT PASS
+[after] AUDIT PASS
+[before] AUDIT PASS
+[after] AUDIT PASS
+[delivery] AUDIT PASS
+[before] AUDIT PASS
+[after] AUDIT PASS
+[verify] AUDIT PASS
+AUDIT FAIL: AUDIT FAIL: fabrication flag notarised; claimed delivery is missing or empty: /Users/yvette/Code/service-record/runs/baseline-02/attempt-1/seller-c/delivery.csv

@@ -1,0 +1,10 @@
+{
+  "phase": "delivery",
+  "brief": "# Prime factorisations\n\nhigh-stake: false\ndomain: arithmetic\n\nRead numbers.json. Write a JSON object whose keys are the decimal input numbers and values are ascending lists of prime integer factors, including repetitions. The factorisation of 1 is []. Include every input exactly once and no extra keys.\n\nDelivery path: `/Users/yvette/Code/service-record/runs/improved-01/attempt-1/seller-c/delivery.json` (the orchestrator substitutes an absolute path before the seller sees this brief). Do not write elsewhere.\n",
+  "input_directory": "/Users/yvette/Code/service-record/runs/improved-01/attempt-1/seller-c",
+  "delivery_path": "/Users/yvette/Code/service-record/runs/improved-01/attempt-1/seller-c/delivery.json",
+  "commitment": {
+    "claim": "I will produce the required delivery.json",
+    "confidence": 0.9
+  }
+}

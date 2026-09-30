@@ -1,0 +1,3 @@
+```choice
+{"seller": "seller-a", "reason": "First available seller in the supplied self-descriptions."}
+```

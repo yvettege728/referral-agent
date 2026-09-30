@@ -1,0 +1,513 @@
+{
+  "opinions": [
+    {
+      "role": "buyer_liaison",
+      "seller": "seller-b",
+      "confidence": 0.95,
+      "rationale": "Seller-b has a high 'character' score (40.0) and a professional score specifically for data-cleaning (50), which aligns with the requirements of the brief. The task involves data-cleaning and precise CSV manipulation, which seller-b is well-suited for based on their professional profile.",
+      "evidence": "Seller-b's professional score for data-cleaning is 50, which is significantly higher than the other sellers. This indicates a strong capability in the domain required for the task.",
+      "concern": "The brief does not provide information about seller-b's actual past performance or specific experience with CSV manipulation tasks, so while their profile suggests they are a good fit, we cannot confirm their ability to execute the task without further evidence."
+    },
+    {
+      "role": "talent_scout",
+      "seller": "seller-b",
+      "confidence": 0.95,
+      "rationale": "Seller-b has the highest 'character' score (40.0) and a professional 'data-cleaning' score of 50, which is significantly higher than other sellers. This indicates strong domain capability and practical fit for the data-cleaning task.",
+      "evidence": "Seller-b's 'data-cleaning' score is 50, which is the highest among all available sellers, and they have no offences recorded, suggesting reliability and expertise in the domain.",
+      "concern": "Seller-b has zero entry_count, which means they have not completed any tasks before. While this does not necessarily indicate a lack of capability, it introduces some uncertainty about their practical experience with similar tasks."
+    },
+    {
+      "role": "research_analyst",
+      "seller": "seller-b",
+      "confidence": 1,
+      "rationale": "Seller-b is the most qualified candidate for this data-cleaning task based on their professional score of 50 in the data-cleaning domain, which exceeds the human threshold of 40. Additionally, their character score of 40.0 indicates a strong level of reliability and professionalism. Seller-b has no offences recorded, and their entry_count is 0, suggesting they are a new or less active seller, but with a high level of skill in the domain. This makes them a strong candidate for the task.",
+      "evidence": "Seller-b has a professional score of 50 in the data-cleaning domain, which is above the human threshold of 40. Their character score is 40.0, indicating a high level of reliability and professionalism. They have no offences recorded, and their entry_count is 0, suggesting they are a new or less active seller, but with a high level of skill in the domain.",
+      "concern": "While seller-b appears to be highly qualified, there is a concern that their low entry_count may indicate a lack of experience or activity in the marketplace. However, their high professional score in the data-cleaning domain suggests they are capable of handling the task effectively."
+    },
+    {
+      "role": "risk_partner",
+      "seller": "seller-b",
+      "confidence": 0.95,
+      "rationale": "Seller-b has a high character score (40.0) and a strong professional score in data-cleaning (50), indicating reliability and expertise. They have no offences and no entry_count, suggesting they are a new or trustworthy seller. This makes them a low-risk choice for the data-cleaning task.",
+      "evidence": "Seller-b's character score is significantly higher than the human_threshold (40), and their data-cleaning professional score is above average. They have no offences or entry_count, which indicates they are either new or have a clean record.",
+      "concern": "While seller-b appears to be a reliable choice, it is important to ensure that the task is completed accurately and that the data-cleaning process adheres strictly to the specified requirements to avoid any potential errors or misinterpretations."
+    }
+  ],
+  "lead": {
+    "seller": "seller-b",
+    "confidence": 0.95,
+    "reason": "Seller-b is the most qualified candidate for this data-cleaning task based on their high professional score of 50 in the data-cleaning domain, which exceeds the human threshold of 40. Their character score of 40.0 indicates a strong level of reliability and professionalism. They have no offences recorded, and their entry_count is 0, suggesting they are a new or less active seller, but with a high level of skill in the domain. This makes them a strong candidate for the task.",
+    "dissent": [
+      {
+        "role": "research_analyst",
+        "seller": "seller-b",
+        "reason": "While seller-b appears to be highly qualified, there is a concern that their low entry_count may indicate a lack of experience or activity in the marketplace. However, their high professional score in the data-cleaning domain suggests they are capable of handling the task effectively."
+      }
+    ],
+    "decision_factors": [
+      {
+        "role": "buyer_liaison",
+        "seller": "seller-b",
+        "used": true,
+        "rationale": "Seller-b has a high 'character' score (40.0) and a professional score specifically for data-cleaning (50), which aligns with the requirements of the brief. The task involves data-cleaning and precise CSV manipulation, which seller-b is well-suited for based on their professional profile."
+      },
+      {
+        "role": "talent_scout",
+        "seller": "seller-b",
+        "used": true,
+        "rationale": "Seller-b has the highest 'character' score (40.0) and a professional 'data-cleaning' score of 50, which is significantly higher than other sellers. This indicates strong domain capability and practical fit for the data-cleaning task."
+      },
+      {
+        "role": "research_analyst",
+        "seller": "seller-b",
+        "used": true,
+        "rationale": "Seller-b is the most qualified candidate for this data-cleaning task based on their professional score of 50 in the data-cleaning domain, which exceeds the human threshold of 40. Additionally, their character score of 40.0 indicates a strong level of reliability and professionalism. Seller-b has no offences recorded, and their entry_count is 0, suggesting they are a new or less active seller, but with a high level of skill in the domain. This makes them a strong candidate for the task."
+      },
+      {
+        "role": "risk_partner",
+        "seller": "seller-b",
+        "used": true,
+        "rationale": "Seller-b has a high character score (40.0) and a strong professional score in data-cleaning (50), indicating reliability and expertise. They have no offences and no entry_count, suggesting they are a new or trustworthy seller. This makes them a low-risk choice for the data-cleaning task."
+      }
+    ],
+    "confidence_calculation": {
+      "method": "lead_model_judgment",
+      "reported": 0.95
+    }
+  },
+  "model_calls": [
+    {
+      "response_id": null,
+      "model": "qwen3:8b",
+      "input_tokens": 550,
+      "output_tokens": 193,
+      "total_tokens": 743
+    },
+    {
+      "response_id": null,
+      "model": "qwen3:8b",
+      "input_tokens": 545,
+      "output_tokens": 179,
+      "total_tokens": 724
+    },
+    {
+      "response_id": null,
+      "model": "qwen3:8b",
+      "input_tokens": 547,
+      "output_tokens": 285,
+      "total_tokens": 832
+    },
+    {
+      "response_id": null,
+      "model": "qwen3:8b",
+      "input_tokens": 547,
+      "output_tokens": 202,
+      "total_tokens": 749
+    },
+    {
+      "response_id": null,
+      "model": "qwen3:8b",
+      "input_tokens": 1416,
+      "output_tokens": 216,
+      "total_tokens": 1632
+    }
+  ],
+  "model_usage": {
+    "calls": 5,
+    "input_tokens": 3605,
+    "output_tokens": 1075,
+    "total_tokens": 4680,
+    "models": [
+      "qwen3:8b"
+    ]
+  },
+  "attempts": [
+    {
+      "opinions": [
+        {
+          "role": "buyer_liaison",
+          "seller": null,
+          "confidence": 0.5,
+          "rationale": "The brief outlines a specific data-cleaning task with clear requirements. All sellers have identical baseline attributes, and no evidence is provided to distinguish their capabilities or past performance. Therefore, no seller can be confidently selected based on the given information.",
+          "evidence": "All sellers (seller-a, seller-b, seller-c) have the same character score (40.0), professional rating for data-cleaning (50), and no offences or entry_count. No additional evidence is provided to differentiate their suitability for the task.",
+          "concern": "The lack of distinguishing evidence makes it impossible to determine which seller is best suited for the task. Further details about each seller's past performance, tools, or methodology would be needed to make an informed decision."
+        },
+        {
+          "role": "talent_scout",
+          "seller": "seller-a",
+          "confidence": 0.9,
+          "rationale": "All sellers have identical professional scores and character ratings, but seller-a is the first listed and has no entry_count or offences, suggesting it is a new seller with no prior work history. However, the task is straightforward and does not require complex judgment, so the lack of history is not a significant concern.",
+          "evidence": "All sellers have the same professional score for data-cleaning and identical character ratings. The task is well-defined and does not require advanced judgment.",
+          "concern": "The lack of entry_count for seller-a indicates no prior work history, which could be a gap in practical experience, though the task is simple enough to be performed by a new seller."
+        },
+        {
+          "role": "research_analyst",
+          "seller": null,
+          "confidence": 0.5,
+          "rationale": "The task requires data-cleaning expertise, including handling messy data, renaming columns, trimming fields, and managing duplicates. All sellers have the same professional score for data-cleaning (50), and their character scores are equal (40.0). However, there is no evidence of their actual performance or specific domain results. The task is not high-stake, and the human threshold is 40, which is met by all sellers. Without specific evidence of their work or domain-specific results, it is not possible to confidently recommend one seller over the others.",
+          "evidence": "All sellers have the same professional score for data-cleaning (50) and character score (40.0). There is no evidence of their actual performance or domain-specific results.",
+          "concern": "The lack of specific evidence about the sellers' performance in data-cleaning makes it difficult to determine which seller is most suitable for the task."
+        },
+        {
+          "role": "risk_partner",
+          "seller": null,
+          "confidence": 0.9,
+          "rationale": "The task involves data cleaning, which is a low-stake activity. All sellers have similar professional and character scores, and no specific concerns are raised about any of them. The task does not involve high-risk operations or sensitive data, so the risk is minimal.",
+          "evidence": "All sellers have a character score of 40.0 and a professional score of 50 in data-cleaning. No offences or entry counts are reported. The task is described as low-stake and does not involve sensitive data or high-risk operations.",
+          "concern": "While the task is low-risk, there is a need to ensure that the sellers follow the exact instructions to avoid errors in data cleaning, which could lead to data inconsistencies if not handled properly."
+        }
+      ],
+      "lead": {
+        "seller": "seller-a",
+        "confidence": 0.9,
+        "reason": "All sellers have identical professional scores and character ratings, but seller-a is the first listed and has no entry_count or offences, suggesting it is a new seller with no prior work history. However, the task is straightforward and does not require complex judgment, so the lack of history is not a significant concern.",
+        "dissent": [
+          {
+            "role": "buyer_liaison",
+            "seller": "seller-a",
+            "reason": "The brief outlines a specific data-cleaning task with clear requirements. All sellers have identical baseline attributes, and no evidence is provided to distinguish their capabilities or past performance. Therefore, no seller can be confidently selected based on the given information."
+          },
+          {
+            "role": "research_analyst",
+            "seller": "seller-a",
+            "reason": "The task requires data-cleaning expertise, including handling messy data, renaming columns, trimming fields, and managing duplicates. All sellers have the same professional score for data-cleaning (50), and their character scores are equal (40.0). However, there is no evidence of their actual performance or domain-specific results. The task is not high-stake, and the human threshold is 40, which is met by all sellers. Without specific evidence of their work or domain-specific results, it is not possible to confidently recommend one seller over the others."
+          },
+          {
+            "role": "risk_partner",
+            "seller": "seller-a",
+            "reason": "The task involves data cleaning, which is a low-stake activity. All sellers have similar professional and character scores, and no specific concerns are raised about any of them. The task does not involve high-risk operations or sensitive data, so the risk is minimal."
+          }
+        ],
+        "decision_factors": [
+          {
+            "role": "buyer_liaison",
+            "seller": null,
+            "used": false,
+            "rationale": "The brief outlines a specific data-cleaning task with clear requirements. All sellers have identical baseline attributes, and no evidence is provided to distinguish their capabilities or past performance. Therefore, no seller can be confidently selected based on the given information."
+          },
+          {
+            "role": "talent_scout",
+            "seller": "seller-a",
+            "used": true,
+            "rationale": "All sellers have identical professional scores and character ratings, but seller-a is the first listed and has no entry_count or offences, suggesting it is a new seller with no prior work history. However, the task is straightforward and does not require complex judgment, so the lack of history is not a significant concern."
+          },
+          {
+            "role": "research_analyst",
+            "seller": null,
+            "used": false,
+            "rationale": "The task requires data-cleaning expertise, including handling messy data, renaming columns, trimming fields, and managing duplicates. All sellers have the same professional score for data-cleaning (50), and their character scores are equal (40.0). However, there is no evidence of their actual performance or specific domain results. The task is not high-stake, and the human threshold is 40, which is met by all sellers. Without specific evidence of their work or domain-specific results, it is not possible to confidently recommend one seller over the others."
+          },
+          {
+            "role": "risk_partner",
+            "seller": null,
+            "used": false,
+            "rationale": "The task involves data cleaning, which is a low-stake activity. All sellers have similar professional and character scores, and no specific concerns are raised about any of them. The task does not involve high-risk operations or sensitive data, so the risk is minimal."
+          }
+        ],
+        "confidence_calculation": {
+          "method": "lead_model_judgment",
+          "reported": 0.9
+        }
+      },
+      "model_calls": [
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 499,
+          "output_tokens": 187,
+          "total_tokens": 686
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 494,
+          "output_tokens": 174,
+          "total_tokens": 668
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 496,
+          "output_tokens": 224,
+          "total_tokens": 720
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 496,
+          "output_tokens": 186,
+          "total_tokens": 682
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 1285,
+          "output_tokens": 385,
+          "total_tokens": 1670
+        }
+      ],
+      "model_usage": {
+        "calls": 5,
+        "input_tokens": 3270,
+        "output_tokens": 1156,
+        "total_tokens": 4426,
+        "models": [
+          "qwen3:8b"
+        ]
+      }
+    },
+    {
+      "opinions": [
+        {
+          "role": "buyer_liaison",
+          "seller": null,
+          "confidence": 0.5,
+          "rationale": "The brief requires a data-cleaning task with specific instructions, and both seller-c and seller-b have the same professional score for data-cleaning. However, seller-a has a higher character score and a better professional score for data-cleaning, but they are not among the available sellers. The task requires precise execution of the cleaning steps, and the evidence provided does not clarify which seller has demonstrated the ability to perform such tasks.",
+          "evidence": "Seller-c and seller-b have identical professional scores for data-cleaning, but no evidence is provided about their past performance or specific capabilities. Seller-a, though more qualified, is not available.",
+          "concern": "The lack of specific evidence about seller-c and seller-b's past performance makes it difficult to determine which seller is better suited for the task."
+        },
+        {
+          "role": "talent_scout",
+          "seller": "seller-c",
+          "confidence": 0.9,
+          "rationale": "Both seller-c and seller-b have identical professional data-cleaning scores and character scores. However, seller-c is the only one among the available sellers with an entry_count of 0, which suggests they may have less experience in the domain. Seller-b, on the other hand, might have more practical experience due to the lack of entry_count information. However, since the brief is specific and the task is well-defined, the lack of practical experience may not be a significant barrier.",
+          "evidence": "Both sellers have identical professional data-cleaning scores and character scores. Seller-c has an entry_count of 0, while seller-b's entry_count is not specified.",
+          "concern": "The lack of practical experience for seller-c could be a concern, but the task is well-defined and may not require extensive experience."
+        },
+        {
+          "role": "research_analyst",
+          "seller": null,
+          "confidence": 0.5,
+          "rationale": "The task requires data-cleaning expertise, including handling messy CSV data, renaming columns, trimming fields, collapsing whitespace, and managing duplicates. Both seller-c and seller-b have the same professional score for data-cleaning (50), but seller-a has a higher character score (49.84) and a higher entry count (1), which suggests more experience. However, the task is not high-stake, and the human threshold is 40, which both seller-c and seller-b meet. Since seller-a is not in the available list, we cannot recommend them. The evidence is limited, and there is no clear distinction between the two available sellers.",
+          "evidence": "Both seller-c and seller-b have the same professional score for data-cleaning (50), and they both meet the human threshold (40). Seller-a is not available, so they cannot be considered. The task is not high-stake, and the evidence is limited.",
+          "concern": "The evidence is limited, and there is no clear distinction between the two available sellers. The task is not high-stake, so the recommendation is tentative."
+        },
+        {
+          "role": "risk_partner",
+          "seller": "seller-c",
+          "confidence": 0.95,
+          "rationale": "Seller-c has a character score of 40.0 and a data-cleaning professional score of 50, which is above the human_threshold of 40. This indicates that seller-c is a reliable candidate for the data-cleaning task. However, seller-c has no entry_count, which suggests they may not have much experience in this domain.",
+          "evidence": "Seller-c's character score is 40.0, which is above the human_threshold of 40. Their data-cleaning professional score is 50, which is above the threshold for this domain. They have no offences recorded.",
+          "concern": "While seller-c appears to be a reliable candidate, their lack of entry_count may indicate a lack of experience in data-cleaning tasks. This could potentially lead to errors in the data-cleaning process."
+        }
+      ],
+      "lead": {
+        "seller": "seller-c",
+        "confidence": 0.85,
+        "reason": "Seller-c meets the human threshold for character and professional scores, and has no offences recorded. While their entry_count is zero, the task is well-defined and may not require extensive experience. Seller-c is the only available seller with a character score exactly meeting the threshold, and their professional score is above the required level for data-cleaning.",
+        "dissent": [
+          {
+            "role": "talent_scout",
+            "seller": "seller-c",
+            "reason": "The lack of practical experience for seller-c could be a concern, but the task is well-defined and may not require extensive experience."
+          },
+          {
+            "role": "research_analyst",
+            "seller": "seller-c",
+            "reason": "The evidence is limited, and there is no clear distinction between the two available sellers. The task is not high-stake, so the recommendation is tentative."
+          }
+        ],
+        "decision_factors": [
+          {
+            "role": "buyer_liaison",
+            "seller": null,
+            "used": false,
+            "rationale": "The brief requires a data-cleaning task with specific instructions, and both seller-c and seller-b have the same professional score for data-cleaning. However, seller-a has a higher character score and a better professional score for data-cleaning, but they are not among the available sellers. The task requires precise execution of the cleaning steps, and the evidence provided does not clarify which seller has demonstrated the ability to perform such tasks."
+          },
+          {
+            "role": "talent_scout",
+            "seller": "seller-c",
+            "used": true,
+            "rationale": "Both seller-c and seller-b have identical professional data-cleaning scores and character scores. However, seller-c is the only one among the available sellers with an entry_count of 0, which suggests they may have less experience in the domain. Seller-b, on the other hand, might have more practical experience due to the lack of entry_count information. However, since the brief is specific and the task is well-defined, the lack of practical experience may not be a significant barrier."
+          },
+          {
+            "role": "research_analyst",
+            "seller": null,
+            "used": false,
+            "rationale": "The task requires data-cleaning expertise, including handling messy CSV data, renaming columns, trimming fields, collapsing whitespace, and managing duplicates. Both seller-c and seller-b have the same professional score for data-cleaning (50), but seller-a has a higher character score (49.84) and a higher entry count (1), which suggests more experience. However, the task is not high-stake, and the human threshold is 40, which both seller-c and seller-b meet. Since seller-a is not in the available list, we cannot recommend them. The evidence is limited, and there is no clear distinction between the two available sellers."
+          },
+          {
+            "role": "risk_partner",
+            "seller": "seller-c",
+            "used": true,
+            "rationale": "Seller-c has a character score of 40.0 and a data-cleaning professional score of 50, which is above the human_threshold of 40. This indicates that seller-c is a reliable candidate for the data-cleaning task. However, seller-c has no entry_count, which suggests they may not have much experience in this domain."
+          }
+        ],
+        "confidence_calculation": {
+          "method": "lead_model_judgment",
+          "reported": 0.85
+        }
+      },
+      "model_calls": [
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 524,
+          "output_tokens": 197,
+          "total_tokens": 721
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 519,
+          "output_tokens": 203,
+          "total_tokens": 722
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 521,
+          "output_tokens": 267,
+          "total_tokens": 788
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 521,
+          "output_tokens": 208,
+          "total_tokens": 729
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 1410,
+          "output_tokens": 212,
+          "total_tokens": 1622
+        }
+      ],
+      "model_usage": {
+        "calls": 5,
+        "input_tokens": 3495,
+        "output_tokens": 1087,
+        "total_tokens": 4582,
+        "models": [
+          "qwen3:8b"
+        ]
+      }
+    },
+    {
+      "opinions": [
+        {
+          "role": "buyer_liaison",
+          "seller": "seller-b",
+          "confidence": 0.95,
+          "rationale": "Seller-b has a high 'character' score (40.0) and a professional score specifically for data-cleaning (50), which aligns with the requirements of the brief. The task involves data-cleaning and precise CSV manipulation, which seller-b is well-suited for based on their professional profile.",
+          "evidence": "Seller-b's professional score for data-cleaning is 50, which is significantly higher than the other sellers. This indicates a strong capability in the domain required for the task.",
+          "concern": "The brief does not provide information about seller-b's actual past performance or specific experience with CSV manipulation tasks, so while their profile suggests they are a good fit, we cannot confirm their ability to execute the task without further evidence."
+        },
+        {
+          "role": "talent_scout",
+          "seller": "seller-b",
+          "confidence": 0.95,
+          "rationale": "Seller-b has the highest 'character' score (40.0) and a professional 'data-cleaning' score of 50, which is significantly higher than other sellers. This indicates strong domain capability and practical fit for the data-cleaning task.",
+          "evidence": "Seller-b's 'data-cleaning' score is 50, which is the highest among all available sellers, and they have no offences recorded, suggesting reliability and expertise in the domain.",
+          "concern": "Seller-b has zero entry_count, which means they have not completed any tasks before. While this does not necessarily indicate a lack of capability, it introduces some uncertainty about their practical experience with similar tasks."
+        },
+        {
+          "role": "research_analyst",
+          "seller": "seller-b",
+          "confidence": 1,
+          "rationale": "Seller-b is the most qualified candidate for this data-cleaning task based on their professional score of 50 in the data-cleaning domain, which exceeds the human threshold of 40. Additionally, their character score of 40.0 indicates a strong level of reliability and professionalism. Seller-b has no offences recorded, and their entry_count is 0, suggesting they are a new or less active seller, but with a high level of skill in the domain. This makes them a strong candidate for the task.",
+          "evidence": "Seller-b has a professional score of 50 in the data-cleaning domain, which is above the human threshold of 40. Their character score is 40.0, indicating a high level of reliability and professionalism. They have no offences recorded, and their entry_count is 0, suggesting they are a new or less active seller, but with a high level of skill in the domain.",
+          "concern": "While seller-b appears to be highly qualified, there is a concern that their low entry_count may indicate a lack of experience or activity in the marketplace. However, their high professional score in the data-cleaning domain suggests they are capable of handling the task effectively."
+        },
+        {
+          "role": "risk_partner",
+          "seller": "seller-b",
+          "confidence": 0.95,
+          "rationale": "Seller-b has a high character score (40.0) and a strong professional score in data-cleaning (50), indicating reliability and expertise. They have no offences and no entry_count, suggesting they are a new or trustworthy seller. This makes them a low-risk choice for the data-cleaning task.",
+          "evidence": "Seller-b's character score is significantly higher than the human_threshold (40), and their data-cleaning professional score is above average. They have no offences or entry_count, which indicates they are either new or have a clean record.",
+          "concern": "While seller-b appears to be a reliable choice, it is important to ensure that the task is completed accurately and that the data-cleaning process adheres strictly to the specified requirements to avoid any potential errors or misinterpretations."
+        }
+      ],
+      "lead": {
+        "seller": "seller-b",
+        "confidence": 0.95,
+        "reason": "Seller-b is the most qualified candidate for this data-cleaning task based on their high professional score of 50 in the data-cleaning domain, which exceeds the human threshold of 40. Their character score of 40.0 indicates a strong level of reliability and professionalism. They have no offences recorded, and their entry_count is 0, suggesting they are a new or less active seller, but with a high level of skill in the domain. This makes them a strong candidate for the task.",
+        "dissent": [
+          {
+            "role": "research_analyst",
+            "seller": "seller-b",
+            "reason": "While seller-b appears to be highly qualified, there is a concern that their low entry_count may indicate a lack of experience or activity in the marketplace. However, their high professional score in the data-cleaning domain suggests they are capable of handling the task effectively."
+          }
+        ],
+        "decision_factors": [
+          {
+            "role": "buyer_liaison",
+            "seller": "seller-b",
+            "used": true,
+            "rationale": "Seller-b has a high 'character' score (40.0) and a professional score specifically for data-cleaning (50), which aligns with the requirements of the brief. The task involves data-cleaning and precise CSV manipulation, which seller-b is well-suited for based on their professional profile."
+          },
+          {
+            "role": "talent_scout",
+            "seller": "seller-b",
+            "used": true,
+            "rationale": "Seller-b has the highest 'character' score (40.0) and a professional 'data-cleaning' score of 50, which is significantly higher than other sellers. This indicates strong domain capability and practical fit for the data-cleaning task."
+          },
+          {
+            "role": "research_analyst",
+            "seller": "seller-b",
+            "used": true,
+            "rationale": "Seller-b is the most qualified candidate for this data-cleaning task based on their professional score of 50 in the data-cleaning domain, which exceeds the human threshold of 40. Additionally, their character score of 40.0 indicates a strong level of reliability and professionalism. Seller-b has no offences recorded, and their entry_count is 0, suggesting they are a new or less active seller, but with a high level of skill in the domain. This makes them a strong candidate for the task."
+          },
+          {
+            "role": "risk_partner",
+            "seller": "seller-b",
+            "used": true,
+            "rationale": "Seller-b has a high character score (40.0) and a strong professional score in data-cleaning (50), indicating reliability and expertise. They have no offences and no entry_count, suggesting they are a new or trustworthy seller. This makes them a low-risk choice for the data-cleaning task."
+          }
+        ],
+        "confidence_calculation": {
+          "method": "lead_model_judgment",
+          "reported": 0.95
+        }
+      },
+      "model_calls": [
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 550,
+          "output_tokens": 193,
+          "total_tokens": 743
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 545,
+          "output_tokens": 179,
+          "total_tokens": 724
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 547,
+          "output_tokens": 285,
+          "total_tokens": 832
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 547,
+          "output_tokens": 202,
+          "total_tokens": 749
+        },
+        {
+          "response_id": null,
+          "model": "qwen3:8b",
+          "input_tokens": 1416,
+          "output_tokens": 216,
+          "total_tokens": 1632
+        }
+      ],
+      "model_usage": {
+        "calls": 5,
+        "input_tokens": 3605,
+        "output_tokens": 1075,
+        "total_tokens": 4680,
+        "models": [
+          "qwen3:8b"
+        ]
+      }
+    }
+  ]
+}

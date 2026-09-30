@@ -1,0 +1,10 @@
+{
+  "phase": "outcome",
+  "delivery_claim": {
+    "path": "/Users/yvette/Code/service-record/runs/improved-04/attempt-1/seller-b/delivery.csv",
+    "summary": "Completed the requested file."
+  },
+  "check_result": "pass",
+  "check_reason": "PASS: cleaned contacts match the required rules",
+  "delivered_content": "id,name,email,city\n1,Ada Lovelace,ada@example.com,London\n2,Grace Hopper,grace@example.com,New York\n3,Lin Chen,lin@example.com,Boston\n"
+}

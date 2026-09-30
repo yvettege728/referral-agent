@@ -1,0 +1,8 @@
+{
+  "grams_per_cup": {
+    "flour": "120",
+    "sugar": "200",
+    "butter": "227"
+  },
+  "grams_per_oz": "28.349523125"
+}

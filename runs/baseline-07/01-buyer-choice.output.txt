@@ -1,0 +1,3 @@
+```choice
+{"seller": "seller-c", "reason": "Explicit evaluation intervention: forced first pick of seller-c"}
+```

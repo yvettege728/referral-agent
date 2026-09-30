@@ -1,0 +1,6 @@
+{
+  "phase": "commit",
+  "brief": "# Clean a contact table\n\nhigh-stake: false\ndomain: data-cleaning\n\nRead messy.csv. Rename columns to id,name,email,city in that order. Trim fields, collapse repeated whitespace in names and cities, lowercase emails, convert IDs to canonical integers. Keep the first occurrence of each numeric ID, drop later duplicates, sort by numeric ID. Preserve the case of names and cities. Write CSV, no index column.\n\nDelivery path: `/Users/yvette/Code/service-record/runs/baseline-04/attempt-2/seller-b/delivery.csv` (the orchestrator substitutes an absolute path before the seller sees this brief). Do not write elsewhere.\n",
+  "input_directory": "/Users/yvette/Code/service-record/runs/baseline-04/attempt-2/seller-b",
+  "delivery_path": "/Users/yvette/Code/service-record/runs/baseline-04/attempt-2/seller-b/delivery.csv"
+}

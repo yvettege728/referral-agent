@@ -1,0 +1,11 @@
+{
+  "task_id": "04",
+  "mode": "baseline",
+  "bad_deliveries": 2,
+  "retries": 2,
+  "ask_human": 0,
+  "agent_calls": 12,
+  "attempts": 3,
+  "status": "pass",
+  "forced_seller": "seller-b"
+}

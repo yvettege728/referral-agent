@@ -1,0 +1,27 @@
+{
+  "task_id": "03",
+  "mode": "improved",
+  "bad_deliveries": 3,
+  "retries": 2,
+  "ask_human": 1,
+  "agent_calls": 12,
+  "attempts": 3,
+  "status": "ask_human",
+  "forced_seller": null,
+  "team_member_calls": 4,
+  "execution_mode": "hybrid-live-model",
+  "model_provider": "ollama",
+  "model_calls": 22,
+  "model_input_tokens": 14086,
+  "model_output_tokens": 3750,
+  "model_names": [
+    "qwen3:8b"
+  ],
+  "referral": "referral-agent-1",
+  "referral_reliability": {
+    "recommendations": 3,
+    "completed": 3,
+    "successes": 0,
+    "reliability": 18.83
+  }
+}
